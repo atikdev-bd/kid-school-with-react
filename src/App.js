@@ -10,7 +10,9 @@ function App() {
   {
     path : '/', element : <Main></Main>, children :[
       {
-        path : 'home', element : <Home></Home>
+        path : 'home', 
+        loader : ()=> fetch('data.json'),
+        element : <Home></Home>
       },
       {
         path : '/' , element : <Home></Home>

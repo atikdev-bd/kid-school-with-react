@@ -1,0 +1,20 @@
+[
+    {
+        "id" : "1",
+       "age" : "Kinder (3-6) years",
+       "img" : "./svg/abc-block.svg",
+       "title" : "Education brings the message of peace."
+    },
+    {
+        "id" : "2",
+       "age" : "Primary (5-11) years",
+       "img" : "./svg/alphabetic-blocks.svg",
+       "title" : "Education brings the message of peace."
+    },
+    {
+        "id" : "3",
+       "age" : "Middle (10-16) years",
+       "img" : "./svg/calculation.svg",
+       "title" : "Education brings the message of peace."
+    }
+]
