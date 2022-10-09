@@ -1,3 +1,16 @@
-.home{
-    background-image: url('../../../Assets/img/backgroundImg.jpeg');
+.home {
+  height: 400px;
+  /* The image used */
+  background-image: url("../../../Assets/img/backgroundImg.jpeg");
+  /* Add the blur effect */
+  filter: blur(px);
+  -webkit-filter: blur(1px);
+
+  /* Full height */
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
 }

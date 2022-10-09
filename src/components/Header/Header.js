@@ -6,15 +6,15 @@ const Header = () => {
   return (
     <nav>
       <div className="first-header bg-slate-600 flex justify-around">
-        <div>
+        <div className="mt-3">
           <Link
-            className="text-gray-200 font-semibold hover:text-lime-600"
+            className="text-gray-200  font-semibold hover:text-lime-600"
             to="/location"
           >
             Location
           </Link>
         </div>
-        <div className=" flex gap-6 h-12 mt-2 ">
+        <div className=" flex gap-6 h-12 mt-2 text-xl">
           <Link
             className="font-medium text-red-50 hover:text-orange-500"
             to="/parent"
